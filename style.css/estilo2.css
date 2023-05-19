@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 5px;
+   box-sizing: border-box;
+   font-family: "roboto", "arial", "sans-serif"; 
+   text-align: center;
+}
+body {
+
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(to bottom right,#2f5e74ad 57%,#140086 100%);
+    background-size: 758px 758px;
+} 
+div {
+    text-align: center;
+    padding: 5px;
+
+}
+#imagem {
+    border-radius: 20px;
+    width: 150px; 
+    height: 150px;
+    align-content: center;
+    animation: imagem 2s infinite alternate linear;
+}
+@keyframes imagem {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-25px);
+    }
+
+    50% {
+        transform: translateY(25px);
+
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
