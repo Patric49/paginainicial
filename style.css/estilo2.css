@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 80vh;
-    background: linear-gradient(to bottom right,#2f5e74ad 90%,#140086 10%);
+    background: linear-gradient(to bottom right,#2f5e74ad 95%,#140086 5%);
     background-size: 758px 758px;
 } 
 div {
